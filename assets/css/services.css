@@ -1,0 +1,105 @@
+@font-face {
+    font-family: fa;
+    src: url('../font/vaziri/Vazir-Bold-FD-WOL.ttf');
+}
+
+body {
+    font-family: fa;
+    background-image: url("../img/automation-services.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#panel{
+    background-image: url("../img/Electric-panel.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#transport{
+    background-image: url("../img/intelligent2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    color: white;
+    margin: 2rem auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.description {
+    margin: 2rem 0;
+    text-align: justify;
+    line-height: 2.1;
+}
+.sample-works{
+    margin: 2rem 0;
+}
+
+.card {
+    height: 500px;
+    transform-style: preserve-3d;
+    transition: transform 0.7s;
+    position: relative;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card .front,
+.card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card .back {
+    transform: rotateY(180deg);
+}
+
+.front {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000;
+}
+
+.front .top-card {
+    height: 70%;
+}
+
+.front .top-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.front .bottom-card {
+    padding: 10px;
+    height: 30%;
+}
+
+.front .bottom-card div {
+    margin-top: 10px;
+}
+
+.back {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px;
+}
+
+.pro-title {
+    font-size: 30px;
+    font-weight: bold;
+}
