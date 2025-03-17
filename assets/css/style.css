@@ -12,11 +12,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* user-select: none; */
+  user-select: none;
 }
 
 body {
-  background: url('https://www.transparenttextures.com/patterns/old-wall.png'), #f9f9f9;
+  background-color: #f7f7f5;
   font-family: lale;
 }
 #policy_html{
@@ -291,7 +291,6 @@ svg {
 .image .Years {
   display: inline-block;
   color: white;
-  /* border: 2px solid red; */
   margin-right: 4rem;
 }
 
@@ -627,7 +626,6 @@ h5 {
 
 .contact .right-contact {
   font-size: 25px;
-  /* font-family: lale; */
   padding: 1rem;
   display: flex;
   align-items: center;
